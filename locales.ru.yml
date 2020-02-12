@@ -1,0 +1,6 @@
+info:
+  key64: "Ключ шифрования: %{key}.\nИспользуйте его для дешифрования документа."
+errors:
+  no_key: 'Вы должны предоставить ключ для дешифрования документа'
+  no_file: 'Указан неверный путь к файлу'
+  no_args: "Использование: ruby pretty_xml_encryptor.rb encode path/to/file.xml\nДля дешифрования: ruby pretty_xml_encryptor.rb decode path/to/enc_file.xml my_secret_key"
